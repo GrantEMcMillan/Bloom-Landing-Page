@@ -1,0 +1,19 @@
+header {
+  background-color: #26292e;
+}
+
+.navbar-brand {
+  color: #949598;
+  font-family: "Butterfly Kids", cursive;
+  font-weight: bold;
+  font-size: 5vw;
+}
+.navbar-nav i {
+  padding: 1vw;
+  font-size: 2vw;
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  min-width: 4vw;
+  text-align: center;
+}
