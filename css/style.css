@@ -17,3 +17,26 @@ header {
   min-width: 4vw;
   text-align: center;
 }
+
+#welcome {
+  background-color: #e7718b;
+}
+
+.btn {
+  font-size: 2vw;
+  color: white;
+  padding: 1vw;
+  border-radius: 1vw;
+  background: rgb(105, 105, 105);
+  background: linear-gradient(
+    180deg,
+    rgba(105, 105, 105, 1) 0%,
+    rgba(62, 62, 62, 1) 48%,
+    rgba(44, 43, 43, 1) 100%
+  );
+  border: none;
+}
+
+#laptop {
+  width: 100%;
+}
