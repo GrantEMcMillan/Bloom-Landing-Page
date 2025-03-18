@@ -23,9 +23,8 @@ header {
 }
 
 .btn {
-  font-size: 2vw;
   color: white;
-  padding: 1vw;
+
   border-radius: 1vw;
   background: rgb(105, 105, 105);
   background: linear-gradient(
@@ -39,4 +38,32 @@ header {
 
 #laptop {
   width: 100%;
+}
+
+.three-cols {
+  background-color: #f4f4f6;
+  border-bottom: #e7718b solid 1px;
+}
+
+.three-cols h4 {
+  color: #717173;
+}
+.three-cols p {
+  color: #ceced0;
+}
+
+@media (min-width: 1440px) {
+  h4,
+  p,
+  .btn {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 2560px) {
+  h1,
+  h4,
+  p,
+  .btn {
+    font-size: 3rem;
+  }
 }
