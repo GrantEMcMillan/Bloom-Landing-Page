@@ -21,6 +21,7 @@ header {
 #welcome {
   background-color: #e7718b;
   color: white;
+  position: relative;
 }
 
 .btn {
@@ -102,4 +103,9 @@ footer i {
   }
 }
 
-@media (max-width: );
+@media (min-width: 992px) {
+  .btn {
+    position: absolute;
+    bottom: 10%;
+  }
+}
