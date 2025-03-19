@@ -87,7 +87,7 @@ footer i {
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
   .navbar-brand {
     font-size: 3rem;
   }
@@ -99,7 +99,7 @@ footer i {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1320px) {
   h4,
   p,
   .btn {
@@ -115,7 +115,7 @@ footer i {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 960px) {
   .btn {
     position: absolute;
     bottom: 10%;
