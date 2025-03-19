@@ -6,15 +6,15 @@ header {
   color: #949598;
   font-family: "Butterfly Kids", cursive;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 8vw;
 }
 .navbar-nav i {
   padding: 1vw;
-  font-size: 2vw;
+  font-size: 4vw;
   background-color: white;
   border-radius: 50%;
   color: black;
-  min-width: 4vw;
+  min-width: 6vw;
   text-align: center;
 }
 
@@ -79,11 +79,11 @@ footer li {
 
 footer i {
   padding: 1vw;
-  font-size: 2vw;
+  font-size: 4vw;
   background-color: white;
   border-radius: 50%;
   color: black;
-  min-width: 4vw;
+  min-width: 6vw;
   text-align: center;
 }
 
