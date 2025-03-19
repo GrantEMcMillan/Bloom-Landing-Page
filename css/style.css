@@ -6,7 +6,7 @@ header {
   color: #949598;
   font-family: "Butterfly Kids", cursive;
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 1.5rem;
 }
 .navbar-nav i {
   padding: 1vw;
@@ -85,6 +85,18 @@ footer i {
   color: black;
   min-width: 4vw;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .navbar-brand {
+    font-size: 6rem;
+  }
 }
 
 @media (min-width: 1440px) {
