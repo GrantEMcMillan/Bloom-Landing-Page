@@ -99,7 +99,7 @@ footer i {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 720px) {
   .navbar i,
   footer i {
     font-size: 2vw;
