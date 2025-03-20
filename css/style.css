@@ -24,6 +24,10 @@ header {
   position: relative;
 }
 
+#welcome h2 {
+  font-size: 1.5rem;
+}
+
 .btn {
   color: white;
   font-size: 0.9rem;
@@ -108,6 +112,12 @@ footer i {
   }
 }
 
+@media (min-width: 992px) {
+  #welcome h2 {
+    text-align: start;
+  }
+}
+
 @media (min-width: 1320px) {
   h4,
   p,
@@ -116,7 +126,7 @@ footer i {
   }
 }
 @media (min-width: 2560px) {
-  h2,
+  #welcome h2,
   h4,
   p,
   .btn {
